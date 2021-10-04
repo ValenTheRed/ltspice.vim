@@ -1,8 +1,6 @@
 " Vim syntax file
 " Language:	LTSpice circuit simulator input netlist
 " Maintainer:	ValenTheRed
-"
-" This is based on https://github.com/ftorres16/spice.vim
 
 if exists("b:current_syntax")
 	finish
@@ -10,7 +8,7 @@ endif
 
 let b:current_syntax = "ltspice"
 
-" spice syntax is case INsensitive
+" LTSpice syntax is case INsensitive
 syn case ignore
 
 " Comments {{{1
