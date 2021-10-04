@@ -16,7 +16,7 @@ syn case ignore
 " Comments {{{1
 syn keyword	spiceTodo	contained TODO NOTE XXX BUG FIXME
 syn region spiceComment start="\v^\s*[*#$]" end="$" contains=@Spell,@spiceTodo
-syn region spiceComment start="\v.*;" end="$" contains=@Spell,@spiceTodo
+syn region spiceComment start="\v;" end="$" contains=@Spell,@spiceTodo
 highlight link spiceTodo		Todo
 highlight link spiceComment		Comment
 
