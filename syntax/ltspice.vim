@@ -23,11 +23,11 @@ highlight link spiceComment		Comment
 " Numbers {{{1
 " all with engineering suffixes and optional units
 " floating point number (23.43), optional exponent
-syn match spiceReal  "\v-?\d+\.\d*(e[-+]?\d+)?(meg|mil|[fpnuμmkgt])?"
+syn match spiceReal  "\v<-?\d+\.\d*(e[-+]?\d+)?(meg|mil|[fpnuμmkgt])?"
 " floating point number, beginning with dot seperator (.32), optional exponent
-syn match spiceReal  "\v-?\.\d+(e[-+]?\d+)?(meg|mil|[fpnuμmkgt])?"
+syn match spiceReal  "\v<-?\.\d+(e[-+]?\d+)?(meg|mil|[fpnuμmkgt])?"
 " integer number with optional exponent
-syn match spiceInteger  "\v-?\d+(e[-+]?\d+)?(meg|mil|[fpnuμmkgt])?"
+syn match spiceInteger  "\v<-?\d+(e[-+]?\d+)?(meg|mil|[fpnuμmkgt])?"
 
 highlight link spiceReal		Float
 highlight link spiceInteger		Number
