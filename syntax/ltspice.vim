@@ -52,6 +52,7 @@ highlight link spiceElement		Type
 
 " Directives {{{1
 syn match spiceDirective "\v^\s*[,.]backanno>"
+syn match spiceDirective "\v^\s*[,.]end>"
 syn match spiceDirective "\v^\s*[,.]ferret>"
 syn match spiceDirective "\v^\s*[,.]global>"
 syn match spiceDirective "\v^\s*[,.]ic>"
@@ -67,6 +68,7 @@ syn match spiceDirective "\v^\s*[,.]opt>"
 syn match spiceDirective "\v^\s*[,.]option>"
 syn match spiceDirective "\v^\s*[,.]options>"
 syn match spiceDirective "\v^\s*[,.]opts>"
+syn match spiceDirective "\v^\s*[,.]probe>"
 syn match spiceDirective "\v^\s*[,.]save>"
 syn match spiceDirective "\v^\s*[,.]savebias>"
 syn match spiceDirective "\v^\s*[,.]step>"
