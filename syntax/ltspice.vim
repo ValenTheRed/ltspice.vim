@@ -34,19 +34,8 @@ highlight link spiceInteger		Number
 
 " Elements {{{1
 " Non supported symbols [^\s{}(),;'=]
-syn match spiceElement "\v^\s*r[^[:space:]{}(),;'=]*" " Resistors
-syn match spiceElement "\v^\s*c[^[:space:]{}(),;'=]*" " Capacitor
-syn match spiceElement "\v^\s*l[^[:space:]{}(),;'=]*" " Inductor
-syn match spiceElement "\v^\s*v[^[:space:]{}(),;'=]*" " Independent voltage source
-syn match spiceElement "\v^\s*i[^[:space:]{}(),;'=]*" " Independent current source
-syn match spiceElement "\v^\s*E[^[:space:]{}(),;'=]*" " Voltage-controlled voltage source
-syn match spiceElement "\v^\s*G[^[:space:]{}(),;'=]*" " Voltage-controlled current source
-syn match spiceElement "\v^\s*H[^[:space:]{}(),;'=]*" " Current-controlled voltage source
-syn match spiceElement "\v^\s*F[^[:space:]{}(),;'=]*" " Current-controlled current source
-syn match spiceElement "\v^\s*d[^[:space:]{}(),;'=]*" " Diode
-syn match spiceElement "\v^\s*q[^[:space:]{}(),;'=]*" " BJT
-syn match spiceElement "\v^\s*m[^[:space:]{}(),;'=]*" " MOSFET
-syn match spiceElement "\v^\s*x[^[:space:]{}(),;'=]*" " Op-amp
+" List of elements from: http://ltwiki.org/index.php?title=LTspice_Annotated_and_Expanded_Help*
+syn match spiceElement "\v^\s*[a-moq-xz][^[:space:]{}(),;'=]*"
 
 highlight link spiceElement		Type
 
