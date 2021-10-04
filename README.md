@@ -8,4 +8,4 @@ Copy `ftdetect` and `syntax` folders into your `~/.vim` or `$XDG_CONFIG_HOME/nvi
 favorite plugin manager.
 
 ## License
-Distributed under the same terms as Vim itself. See `:help license`.
+Distributed under the same terms as Vim itself. See `:help license` in Vim.
